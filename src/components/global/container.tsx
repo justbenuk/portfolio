@@ -11,7 +11,10 @@ export default function Container({
   return (
     <>
       <div
-        className={cn("mx-auto max-w-6xl xl:max-w-7xl py-4 gap-4", className)}
+        className={cn(
+          "mx-auto max-w-6xl xl:max-w-7xl py-4 px-6 xl:px-0 gap-4",
+          className,
+        )}
       >
         {children}
       </div>

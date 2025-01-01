@@ -13,7 +13,7 @@ export default function Navbar() {
           <Link
             href={href}
             key={idx}
-            className={`${pathname === href && "underline decoration-purple-500 underline-offset-8"}`}
+            className={`${pathname === href && "font-semibold text-green-500"}`}
           >
             {name}
           </Link>

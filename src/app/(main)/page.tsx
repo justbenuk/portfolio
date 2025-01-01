@@ -1,7 +1,9 @@
+import Container from "@/components/global/container";
+import Hero from "@/components/hero/hero";
 export default function Home() {
   return (
-    <>
-      <p>Home Page</p>
-    </>
+    <Container>
+      <Hero />
+    </Container>
   );
 }
